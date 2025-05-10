@@ -14,9 +14,17 @@ public class Biblioteca {
 	public List<Livro> listaLivros() {
 		return new ArrayList<>(livros);
 	}
-
+	
+	/**
+	 * 
+	 * @param autor
+	 * @return
+	 */
+	
 	public List<Livro> buscarPorAutor(String autor) {
-		return livros.stream().filter(livro -> livro.getAutor().equalsIgnoreCase(autor)).collect(Collectors.toList());
+		return livros.stream()
+				.filter(livro -> livro.getAutor().equalsIgnoreCase(autor))
+				.collect(Collectors.toList());
 	}
 
 }
