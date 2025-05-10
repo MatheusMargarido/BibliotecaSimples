@@ -8,5 +8,5 @@
 ## [1.1.0] - 2025-05-10
 - **feat**: Adiciona busca de livros por autor.
 
-  ##[1.0.0] - 2025-05-10
-  - **feat**: Implementando funcionalidades inicial de adicionar e listar livros.
+##[1.0.0] - 2025-05-10
+ - **feat**: Implementando funcionalidades inicial de adicionar e listar livros.
